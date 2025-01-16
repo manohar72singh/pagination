@@ -26,6 +26,7 @@ export default function PageCount({
       <button onClick={handlePrevClick} disabled={prevDisabled}>
         Prev
       </button>
+  // perPgae => totalPages
       {Array.from({ length: perPage }, (_, i) => {
         return (
           <button
